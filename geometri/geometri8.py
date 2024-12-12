@@ -1,6 +1,6 @@
 print("="*45)
 print("Newton")
-print("=")
+print("="*45)
 
 m = int(input("masukan massa benda : "))
 g = int(input("masukan gravitasi bumi : "))

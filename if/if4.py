@@ -1,13 +1,7 @@
-umur = int(input("masukan umur anda : "))
-
-if umur < 12:
-    print("kanak-kanak")
-elif umur < 24:
-    print("remaja")
-elif umur < 60:
-    print("dewasa")
-elif umur < 120:
-    print('tua')
+usia = int(input("Masukkan usia: "))
+if usia < 12:
+    print("Anda masih anak-anak.")
+elif 12 <= usia < 24:
+    print("Anda remaja.")
 else:
-    print(" maaf umur valid ")
-print(umur)
+    print("Anda dewasa.")

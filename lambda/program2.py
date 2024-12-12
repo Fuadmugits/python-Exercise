@@ -1,8 +1,10 @@
-def persegi():
-    s = int(input('masukan nilai sisi: '))
+def linkgkaran():
+    PHI = 3.14
 
-    l = lambda : s * s
+    r = int(input("Masukan nilai ruas: "))
 
-    print(l())
-persegi()
+    hasil = lambda : 2 * PHI * r
 
+    print(hasil())
+linkgkaran()
+linkgkaran()
